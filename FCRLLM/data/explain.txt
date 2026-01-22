@@ -1,0 +1,1 @@
+Download the files and place them in the `data/` folder before running the script.
