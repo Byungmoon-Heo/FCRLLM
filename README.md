@@ -15,7 +15,7 @@ Official source code for WWW 2026 paper "FCRLLLM: Aligning LLM with Collaborativ
 <br>
 
 ## For dataset
-For more detail information about dataset, please refer to [LLM-ESR(https://github.com/Applied-Machine-Learning-Lab/LLM-ESR)].
+For more detailed information, please refer to [LLM-ESR](https://github.com/Applied-Machine-Learning-Lab/LLM-ESR).
 <br>
 After you get datasets, place the file in the `data` folder.
 
