@@ -1,5 +1,5 @@
 # FCRLLM
-Aligning LLM with Collaborative Filtering for Long-tailed Sequential Recommendation
+Official source code for WWW 2026 paper "FCRLLLM: Aligning LLM with Collaborative Filtering for Long-tailed Sequential Recommendation"
 
 <br/>
 
@@ -14,11 +14,10 @@ Aligning LLM with Collaborative Filtering for Long-tailed Sequential Recommendat
 - joblib==1.4.2
 <br>
 
-## Data Download
-Please download the dataset from the link before running the code.
-[[Google Drive](https://drive.google.com/drive/folders/1tNuV3Lnr0i4VzDp-ehXAOHjgxJPmVsux?usp=sharing)]
+## For dataset
+For more detail information about dataset, please refer to [LLM-ESR(https://github.com/Applied-Machine-Learning-Lab/LLM-ESR)].
 <br>
-After downloading, place the file in the `data` folder.
+After you get datasets, place the file in the `data` folder.
 
 <br/>
 
@@ -34,3 +33,14 @@ bash ./experiments/beauty_inference.bash
 ```
 <br/>
 
+## Reference:
+Please cite our paper if you use this code.
+```bibtex
+@inproceedings{heo2026fcrllm,
+  author = {Heo, Byungmoon and Lee, Namjun and Kim, Seonah and Kim, Jaekwang},
+  title = {FCRLLM: Aligning LLM with Collaborative Filtering for Long-tailed Sequential Recommendation},
+  booktitle = {Proceedings of the ACM Web Conference (WWW)},
+  year = {2026},
+  pages = {6574--6585},
+  doi = {10.1145/3774904.3792565}
+}
